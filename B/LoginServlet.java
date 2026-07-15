@@ -2,6 +2,9 @@ import java.io.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
+
+// javac -cp "lib\servlet-api.jar;webapps\CompanyApp\WEB-INF\lib\*" -d webapps\CompanyApp\WEB-INF\classes SaveCompany.java
+
 public class LoginServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request,
