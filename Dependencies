@@ -1,0 +1,6 @@
+pip install numpy scikit-learn statsmodels
+python -c "import numpy, sklearn, statsmodels; print('All packages installed successfully!')"
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install numpy scikit-learn statsmodels
